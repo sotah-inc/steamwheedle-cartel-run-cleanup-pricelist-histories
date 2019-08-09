@@ -40,7 +40,7 @@ steps:
       '--platform', 'managed',
       '--no-allow-unauthenticated',
       '--timeout', '120s',
-      '--concurrency', '80'
+      '--concurrency', '200'
     ]
 images: [
   'gcr.io/$PROJECT_ID/steamwheedle-cartel/run-cleanup-pricelist-histories/build:latest',
